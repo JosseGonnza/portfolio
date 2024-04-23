@@ -12,13 +12,13 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: #2add98;
     transition: color 0.3s ease;
 }
 
-a:hover{
+nav a:hover{
     color: #cffce4 !important;
 }
 
@@ -285,16 +285,17 @@ nav button#menuButton{
 
 .portfolio .portfo-items .item{
     width: 30%;
-    background-color: #fff;
-    border-radius: 10px;
-    border-bottom: 4px solid transparent;
-    cursor: pointer;
+    background-color: #e4e4e4;
+    border-radius: 10px 10px 20px 20px;
+    border: 5px solid transparent;
+    border-top: 0px solid transparent;
     box-shadow: 0 5px 32px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
 }
 
 .portfolio .portfo-items .item:hover{
-    border-color: #5e3bee;
+    border-color: #376d04;
+    transform: scale(1.1);
 }
 
 .portfolio .portfo-items .item img{
@@ -316,15 +317,18 @@ nav button#menuButton{
     font-size: 13px;
 }
 
-.portfolio .portfo-items .item .info a{
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-color: #5e3bee;
+.portfolio .portfo-items .item .info .foot{
+    color: #002f22;
+}
+
+.portfolio .portfo-items .item .info .foot:hover{
+    color: #000000;
 }
 
 .portfolio .portfo-items .item .info a i{
     margin-left: 2px;
     font-size: 16px;
+    color: #002f22;
 }
 
 
