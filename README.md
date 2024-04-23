@@ -9,6 +9,7 @@ En mis proyectos, he trabajado con una variedad de tecnologías, incluyendo:
 - JavaScript 
 - Java
 - Spring Boot
+- C#
 - Angular
 - TypeScript
 - PostgreSQL
